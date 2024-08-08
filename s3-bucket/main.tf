@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "b" {
+resource "aws_s3_bucket_acl" "b" {
   bucket = "io-application-bucket"
   acl = "private"
 
