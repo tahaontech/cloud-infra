@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "IO_Exchange_Bucket"
+  bucket = "io-application-bucket"
   acl = "private"
 
   tags = {
